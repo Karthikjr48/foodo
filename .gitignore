@@ -1,0 +1,20 @@
+# Environment & Credentials (NEVER COMMIT)
+includes/config.local.php
+.env
+.env.local
+
+# Logs
+*.log
+sms_debug.log
+
+# Scratch & Temporary Testing Scripts
+scratch/
+test-connection.php
+test.php
+
+# OS & Editor generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
